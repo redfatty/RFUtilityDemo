@@ -13,9 +13,24 @@
 		CE7E642F1E7BBB2F00A4ED24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7E642D1E7BBB2F00A4ED24 /* Main.storyboard */; };
 		CE7E64311E7BBB2F00A4ED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64301E7BBB2F00A4ED24 /* Assets.xcassets */; };
 		CE7E64341E7BBB2F00A4ED24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64321E7BBB2F00A4ED24 /* LaunchScreen.storyboard */; };
+		CE7E643E1E7BC71500A4ED24 /* NSString+RFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E643D1E7BC71500A4ED24 /* NSString+RFAdd.m */; };
+		CE7E64411E7BC81C00A4ED24 /* UIScrollView+MJAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64401E7BC81C00A4ED24 /* UIScrollView+MJAdd.m */; };
+		CE7E64491E7BCBE000A4ED24 /* RFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64481E7BCBE000A4ED24 /* RFBaseViewController.m */; };
+		CE7E64551E7BCE0400A4ED24 /* RFMJAnimateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64521E7BCE0400A4ED24 /* RFMJAnimateFooter.m */; };
+		CE7E64561E7BCE0400A4ED24 /* RFMJAnimateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64541E7BCE0400A4ED24 /* RFMJAnimateHeader.m */; };
+		CE7E64581E7BCE1100A4ED24 /* refreshing01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64571E7BCE1100A4ED24 /* refreshing01.png */; };
+		CE7E645A1E7BCE1700A4ED24 /* refreshing02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64591E7BCE1700A4ED24 /* refreshing02.png */; };
+		CE7E645C1E7BCE1D00A4ED24 /* refreshing03.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E645B1E7BCE1D00A4ED24 /* refreshing03.png */; };
+		CE7E645E1E7BCE2400A4ED24 /* refreshing04.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E645D1E7BCE2400A4ED24 /* refreshing04.png */; };
+		CE7E64601E7BCE2900A4ED24 /* refreshing05.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E645F1E7BCE2900A4ED24 /* refreshing05.png */; };
+		CE7E64621E7BCE2F00A4ED24 /* refreshing06.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64611E7BCE2F00A4ED24 /* refreshing06.png */; };
+		EDC6E101673D629AA98E6FCF /* libPods-RFMainDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EAD91018E0CD4318B2CC7F /* libPods-RFMainDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77EAD91018E0CD4318B2CC7F /* libPods-RFMainDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFMainDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EAAC38719795CAC9E2D433 /* Pods-RFMainDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFMainDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFMainDemo/Pods-RFMainDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6A818C8082AA5FADC9BF5D /* Pods-RFMainDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFMainDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFMainDemo/Pods-RFMainDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CE7E64211E7BBB2F00A4ED24 /* RFMainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFMainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E64251E7BBB2F00A4ED24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7E64271E7BBB2F00A4ED24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,22 @@
 		CE7E64301E7BBB2F00A4ED24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7E64331E7BBB2F00A4ED24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7E64351E7BBB2F00A4ED24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7E643C1E7BC71500A4ED24 /* NSString+RFAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RFAdd.h"; sourceTree = "<group>"; };
+		CE7E643D1E7BC71500A4ED24 /* NSString+RFAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RFAdd.m"; sourceTree = "<group>"; };
+		CE7E643F1E7BC81C00A4ED24 /* UIScrollView+MJAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJAdd.h"; sourceTree = "<group>"; };
+		CE7E64401E7BC81C00A4ED24 /* UIScrollView+MJAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJAdd.m"; sourceTree = "<group>"; };
+		CE7E64471E7BCBE000A4ED24 /* RFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBaseViewController.h; sourceTree = "<group>"; };
+		CE7E64481E7BCBE000A4ED24 /* RFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBaseViewController.m; sourceTree = "<group>"; };
+		CE7E64511E7BCE0400A4ED24 /* RFMJAnimateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFMJAnimateFooter.h; sourceTree = "<group>"; };
+		CE7E64521E7BCE0400A4ED24 /* RFMJAnimateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFMJAnimateFooter.m; sourceTree = "<group>"; };
+		CE7E64531E7BCE0400A4ED24 /* RFMJAnimateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFMJAnimateHeader.h; sourceTree = "<group>"; };
+		CE7E64541E7BCE0400A4ED24 /* RFMJAnimateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFMJAnimateHeader.m; sourceTree = "<group>"; };
+		CE7E64571E7BCE1100A4ED24 /* refreshing01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing01.png; sourceTree = "<group>"; };
+		CE7E64591E7BCE1700A4ED24 /* refreshing02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing02.png; sourceTree = "<group>"; };
+		CE7E645B1E7BCE1D00A4ED24 /* refreshing03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing03.png; sourceTree = "<group>"; };
+		CE7E645D1E7BCE2400A4ED24 /* refreshing04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing04.png; sourceTree = "<group>"; };
+		CE7E645F1E7BCE2900A4ED24 /* refreshing05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing05.png; sourceTree = "<group>"; };
+		CE7E64611E7BCE2F00A4ED24 /* refreshing06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing06.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +64,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC6E101673D629AA98E6FCF /* libPods-RFMainDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351EECA744884FC819B4E514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83EAAC38719795CAC9E2D433 /* Pods-RFMainDemo.debug.xcconfig */,
+				8B6A818C8082AA5FADC9BF5D /* Pods-RFMainDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE7E64181E7BBB2F00A4ED24 = {
 			isa = PBXGroup;
 			children = (
 				CE7E64231E7BBB2F00A4ED24 /* RFMainDemo */,
 				CE7E64221E7BBB2F00A4ED24 /* Products */,
+				351EECA744884FC819B4E514 /* Pods */,
+				E06B051F0B416DB6A2217AC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +101,8 @@
 		CE7E64231E7BBB2F00A4ED24 /* RFMainDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E64431E7BC93800A4ED24 /* RFLib */,
+				CE7E643B1E7BC6FB00A4ED24 /* RFCategory */,
 				CE7E64271E7BBB2F00A4ED24 /* AppDelegate.h */,
 				CE7E64281E7BBB2F00A4ED24 /* AppDelegate.m */,
 				CE7E642A1E7BBB2F00A4ED24 /* ViewController.h */,
@@ -79,6 +124,84 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE7E643B1E7BC6FB00A4ED24 /* RFCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E643C1E7BC71500A4ED24 /* NSString+RFAdd.h */,
+				CE7E643D1E7BC71500A4ED24 /* NSString+RFAdd.m */,
+				CE7E643F1E7BC81C00A4ED24 /* UIScrollView+MJAdd.h */,
+				CE7E64401E7BC81C00A4ED24 /* UIScrollView+MJAdd.m */,
+			);
+			path = RFCategory;
+			sourceTree = "<group>";
+		};
+		CE7E64431E7BC93800A4ED24 /* RFLib */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64441E7BCBCA00A4ED24 /* Controller */,
+				CE7E64451E7BCBCA00A4ED24 /* Model */,
+				CE7E64461E7BCBCA00A4ED24 /* View */,
+			);
+			path = RFLib;
+			sourceTree = "<group>";
+		};
+		CE7E64441E7BCBCA00A4ED24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64471E7BCBE000A4ED24 /* RFBaseViewController.h */,
+				CE7E64481E7BCBE000A4ED24 /* RFBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE7E64451E7BCBCA00A4ED24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE7E64461E7BCBCA00A4ED24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64501E7BCE0400A4ED24 /* RFMJAnimateHeaderFooter */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE7E64501E7BCE0400A4ED24 /* RFMJAnimateHeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64631E7BCE3700A4ED24 /* imge */,
+				CE7E64511E7BCE0400A4ED24 /* RFMJAnimateFooter.h */,
+				CE7E64521E7BCE0400A4ED24 /* RFMJAnimateFooter.m */,
+				CE7E64531E7BCE0400A4ED24 /* RFMJAnimateHeader.h */,
+				CE7E64541E7BCE0400A4ED24 /* RFMJAnimateHeader.m */,
+			);
+			path = RFMJAnimateHeaderFooter;
+			sourceTree = "<group>";
+		};
+		CE7E64631E7BCE3700A4ED24 /* imge */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64571E7BCE1100A4ED24 /* refreshing01.png */,
+				CE7E64591E7BCE1700A4ED24 /* refreshing02.png */,
+				CE7E645B1E7BCE1D00A4ED24 /* refreshing03.png */,
+				CE7E645D1E7BCE2400A4ED24 /* refreshing04.png */,
+				CE7E645F1E7BCE2900A4ED24 /* refreshing05.png */,
+				CE7E64611E7BCE2F00A4ED24 /* refreshing06.png */,
+			);
+			name = imge;
+			sourceTree = "<group>";
+		};
+		E06B051F0B416DB6A2217AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77EAD91018E0CD4318B2CC7F /* libPods-RFMainDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7E64381E7BBB2F00A4ED24 /* Build configuration list for PBXNativeTarget "RFMainDemo" */;
 			buildPhases = (
+				702057EDF560895FB2AA0F5B /* [CP] Check Pods Manifest.lock */,
 				CE7E641D1E7BBB2F00A4ED24 /* Sources */,
 				CE7E641E1E7BBB2F00A4ED24 /* Frameworks */,
 				CE7E641F1E7BBB2F00A4ED24 /* Resources */,
+				859931B8C74F6C3C026DE403 /* [CP] Embed Pods Frameworks */,
+				11758E80CA6D221E5DE83FDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,12 +264,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7E64341E7BBB2F00A4ED24 /* LaunchScreen.storyboard in Resources */,
+				CE7E64581E7BCE1100A4ED24 /* refreshing01.png in Resources */,
 				CE7E64311E7BBB2F00A4ED24 /* Assets.xcassets in Resources */,
 				CE7E642F1E7BBB2F00A4ED24 /* Main.storyboard in Resources */,
+				CE7E645E1E7BCE2400A4ED24 /* refreshing04.png in Resources */,
+				CE7E64601E7BCE2900A4ED24 /* refreshing05.png in Resources */,
+				CE7E645A1E7BCE1700A4ED24 /* refreshing02.png in Resources */,
+				CE7E645C1E7BCE1D00A4ED24 /* refreshing03.png in Resources */,
+				CE7E64621E7BCE2F00A4ED24 /* refreshing06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11758E80CA6D221E5DE83FDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RFMainDemo/Pods-RFMainDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702057EDF560895FB2AA0F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		859931B8C74F6C3C026DE403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RFMainDemo/Pods-RFMainDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE7E641D1E7BBB2F00A4ED24 /* Sources */ = {
@@ -153,6 +333,11 @@
 				CE7E642C1E7BBB2F00A4ED24 /* ViewController.m in Sources */,
 				CE7E64291E7BBB2F00A4ED24 /* AppDelegate.m in Sources */,
 				CE7E64261E7BBB2F00A4ED24 /* main.m in Sources */,
+				CE7E64411E7BC81C00A4ED24 /* UIScrollView+MJAdd.m in Sources */,
+				CE7E643E1E7BC71500A4ED24 /* NSString+RFAdd.m in Sources */,
+				CE7E64561E7BCE0400A4ED24 /* RFMJAnimateHeader.m in Sources */,
+				CE7E64551E7BCE0400A4ED24 /* RFMJAnimateFooter.m in Sources */,
+				CE7E64491E7BCBE000A4ED24 /* RFBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -270,6 +455,7 @@
 		};
 		CE7E64391E7BBB2F00A4ED24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EAAC38719795CAC9E2D433 /* Pods-RFMainDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RFMainDemo/Info.plist;
@@ -281,6 +467,7 @@
 		};
 		CE7E643A1E7BBB2F00A4ED24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6A818C8082AA5FADC9BF5D /* Pods-RFMainDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RFMainDemo/Info.plist;
@@ -309,6 +496,7 @@
 				CE7E643A1E7BBB2F00A4ED24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
