@@ -20,15 +20,15 @@
     // Do any additional setup after loading the view.
     
     //心跳
-    UILabel *heartbeatLabel = [UILabel instanceWithSuperview:self.view bgColor:[UIColor purpleColor] makeConstraints:^(MASConstraintMaker *make) {
+    UILabel *heartbeatLabel = [UILabel instanceWithSuperview:self.view bgColor:[UIColor lightGrayColor] makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(@(72));
         make.left.equalTo(@(8));
         make.width.height.equalTo(@(45));
     }];
     heartbeatLabel.layer.cornerRadius = 22.5;
     heartbeatLabel.clipsToBounds = YES;
-    heartbeatLabel.text = @"心跳";
-    heartbeatLabel.textColor = [UIColor whiteColor];
+    heartbeatLabel.text = @"❤️";
+//    heartbeatLabel.textColor = [UIColor whiteColor];
     heartbeatLabel.textAlignment = NSTextAlignmentCenter;
     
     CABasicAnimation *heartbeatAnima = [CABasicAnimation animationWithKeyPath:@"transform.scale.xy"];
