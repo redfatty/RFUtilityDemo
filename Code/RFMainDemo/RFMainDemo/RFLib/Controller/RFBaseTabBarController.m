@@ -1,24 +1,22 @@
 //
-//  RFBaseViewController.m
+//  RFBaseTabBarController.m
 //  RFMainDemo
 //
 //  Created by huangJiong on 2017/3/17.
 //  Copyright © 2017年 huangjiong. All rights reserved.
 //
 
-#import "RFBaseViewController.h"
+#import "RFBaseTabBarController.h"
 
-@interface RFBaseViewController ()
+@interface RFBaseTabBarController ()
 
 @end
 
-@implementation RFBaseViewController
+@implementation RFBaseTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

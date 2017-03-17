@@ -1,24 +1,22 @@
 //
-//  RFBaseViewController.m
+//  RFViewAnimationViewController.m
 //  RFMainDemo
 //
 //  Created by huangJiong on 2017/3/17.
 //  Copyright © 2017年 huangjiong. All rights reserved.
 //
 
-#import "RFBaseViewController.h"
+#import "RFViewAnimationViewController.h"
 
-@interface RFBaseViewController ()
+@interface RFViewAnimationViewController ()
 
 @end
 
-@implementation RFBaseViewController
+@implementation RFViewAnimationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

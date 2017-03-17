@@ -1,24 +1,32 @@
 //
-//  RFBaseViewController.m
+//  RFMainTabBarController.m
 //  RFMainDemo
 //
 //  Created by huangJiong on 2017/3/17.
 //  Copyright © 2017年 huangjiong. All rights reserved.
 //
 
-#import "RFBaseViewController.h"
+#import "RFMainTabBarController.h"
+#import "RFAnimationHomeViewController.h"
+#import "RFBaseNavigationController.h"
 
-@interface RFBaseViewController ()
+@interface RFMainTabBarController ()
 
 @end
 
-@implementation RFBaseViewController
+@implementation RFMainTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    RFAnimationHomeViewController *animationHomeVC = [[RFAnimationHomeViewController alloc] init];
+    animationHomeVC.tabBarItem.title = @"动画";
+    RFBaseNavigationController *animationNav = [[RFBaseNavigationController alloc] initWithRootViewController:animationHomeVC];
+    
+    
+    
+    [self addChildViewController:animationNav];
 }
 
 - (void)didReceiveMemoryWarning {

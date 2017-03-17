@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RFMainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    RFMainTabBarController *mainTabBarCtrl = [[RFMainTabBarController alloc] init];
+    
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _window.backgroundColor = [UIColor whiteColor];
+    _window.rootViewController = mainTabBarCtrl;
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

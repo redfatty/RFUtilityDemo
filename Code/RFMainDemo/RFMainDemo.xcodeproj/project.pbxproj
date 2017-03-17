@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		CE7E64261E7BBB2F00A4ED24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64251E7BBB2F00A4ED24 /* main.m */; };
 		CE7E64291E7BBB2F00A4ED24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64281E7BBB2F00A4ED24 /* AppDelegate.m */; };
-		CE7E642C1E7BBB2F00A4ED24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E642B1E7BBB2F00A4ED24 /* ViewController.m */; };
-		CE7E642F1E7BBB2F00A4ED24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7E642D1E7BBB2F00A4ED24 /* Main.storyboard */; };
 		CE7E64311E7BBB2F00A4ED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64301E7BBB2F00A4ED24 /* Assets.xcassets */; };
 		CE7E64341E7BBB2F00A4ED24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64321E7BBB2F00A4ED24 /* LaunchScreen.storyboard */; };
 		CE7E643E1E7BC71500A4ED24 /* NSString+RFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E643D1E7BC71500A4ED24 /* NSString+RFAdd.m */; };
@@ -24,6 +22,14 @@
 		CE7E645E1E7BCE2400A4ED24 /* refreshing04.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E645D1E7BCE2400A4ED24 /* refreshing04.png */; };
 		CE7E64601E7BCE2900A4ED24 /* refreshing05.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E645F1E7BCE2900A4ED24 /* refreshing05.png */; };
 		CE7E64621E7BCE2F00A4ED24 /* refreshing06.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64611E7BCE2F00A4ED24 /* refreshing06.png */; };
+		CE7E64671E7BD62C00A4ED24 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64661E7BD62C00A4ED24 /* Image.xcassets */; };
+		CE7E646A1E7BD84100A4ED24 /* RFAnimationHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64691E7BD84100A4ED24 /* RFAnimationHomeViewController.m */; };
+		CE7E646D1E7BD89900A4ED24 /* RFBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E646C1E7BD89900A4ED24 /* RFBaseTabBarController.m */; };
+		CE7E64701E7BD8B800A4ED24 /* RFMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E646F1E7BD8B800A4ED24 /* RFMainTabBarController.m */; };
+		CE7E64731E7BDA8000A4ED24 /* RFUsualAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64721E7BDA8000A4ED24 /* RFUsualAnimationViewController.m */; };
+		CE7E64761E7BDFA900A4ED24 /* RFBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64751E7BDFA900A4ED24 /* RFBaseNavigationController.m */; };
+		CE7E64791E7BE38900A4ED24 /* RFViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64781E7BE38900A4ED24 /* RFViewAnimationViewController.m */; };
+		CE7E647C1E7BE68F00A4ED24 /* UIView+RFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E647B1E7BE68F00A4ED24 /* UIView+RFAdd.m */; };
 		EDC6E101673D629AA98E6FCF /* libPods-RFMainDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77EAD91018E0CD4318B2CC7F /* libPods-RFMainDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +41,6 @@
 		CE7E64251E7BBB2F00A4ED24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7E64271E7BBB2F00A4ED24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE7E64281E7BBB2F00A4ED24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE7E642A1E7BBB2F00A4ED24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE7E642B1E7BBB2F00A4ED24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE7E642E1E7BBB2F00A4ED24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7E64301E7BBB2F00A4ED24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7E64331E7BBB2F00A4ED24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7E64351E7BBB2F00A4ED24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +60,21 @@
 		CE7E645D1E7BCE2400A4ED24 /* refreshing04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing04.png; sourceTree = "<group>"; };
 		CE7E645F1E7BCE2900A4ED24 /* refreshing05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing05.png; sourceTree = "<group>"; };
 		CE7E64611E7BCE2F00A4ED24 /* refreshing06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshing06.png; sourceTree = "<group>"; };
+		CE7E64661E7BD62C00A4ED24 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		CE7E64681E7BD84100A4ED24 /* RFAnimationHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFAnimationHomeViewController.h; sourceTree = "<group>"; };
+		CE7E64691E7BD84100A4ED24 /* RFAnimationHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFAnimationHomeViewController.m; sourceTree = "<group>"; };
+		CE7E646B1E7BD89900A4ED24 /* RFBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBaseTabBarController.h; sourceTree = "<group>"; };
+		CE7E646C1E7BD89900A4ED24 /* RFBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBaseTabBarController.m; sourceTree = "<group>"; };
+		CE7E646E1E7BD8B800A4ED24 /* RFMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFMainTabBarController.h; sourceTree = "<group>"; };
+		CE7E646F1E7BD8B800A4ED24 /* RFMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFMainTabBarController.m; sourceTree = "<group>"; };
+		CE7E64711E7BDA8000A4ED24 /* RFUsualAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFUsualAnimationViewController.h; sourceTree = "<group>"; };
+		CE7E64721E7BDA8000A4ED24 /* RFUsualAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFUsualAnimationViewController.m; sourceTree = "<group>"; };
+		CE7E64741E7BDFA900A4ED24 /* RFBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBaseNavigationController.h; sourceTree = "<group>"; };
+		CE7E64751E7BDFA900A4ED24 /* RFBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBaseNavigationController.m; sourceTree = "<group>"; };
+		CE7E64771E7BE38900A4ED24 /* RFViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFViewAnimationViewController.h; sourceTree = "<group>"; };
+		CE7E64781E7BE38900A4ED24 /* RFViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFViewAnimationViewController.m; sourceTree = "<group>"; };
+		CE7E647A1E7BE68F00A4ED24 /* UIView+RFAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RFAdd.h"; sourceTree = "<group>"; };
+		CE7E647B1E7BE68F00A4ED24 /* UIView+RFAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RFAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +119,14 @@
 		CE7E64231E7BBB2F00A4ED24 /* RFMainDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E64651E7BD61700A4ED24 /* Resource */,
+				CE7E64641E7BD5C900A4ED24 /* Animation */,
 				CE7E64431E7BC93800A4ED24 /* RFLib */,
 				CE7E643B1E7BC6FB00A4ED24 /* RFCategory */,
 				CE7E64271E7BBB2F00A4ED24 /* AppDelegate.h */,
 				CE7E64281E7BBB2F00A4ED24 /* AppDelegate.m */,
-				CE7E642A1E7BBB2F00A4ED24 /* ViewController.h */,
-				CE7E642B1E7BBB2F00A4ED24 /* ViewController.m */,
-				CE7E642D1E7BBB2F00A4ED24 /* Main.storyboard */,
+				CE7E646E1E7BD8B800A4ED24 /* RFMainTabBarController.h */,
+				CE7E646F1E7BD8B800A4ED24 /* RFMainTabBarController.m */,
 				CE7E64301E7BBB2F00A4ED24 /* Assets.xcassets */,
 				CE7E64321E7BBB2F00A4ED24 /* LaunchScreen.storyboard */,
 				CE7E64351E7BBB2F00A4ED24 /* Info.plist */,
@@ -127,6 +146,8 @@
 		CE7E643B1E7BC6FB00A4ED24 /* RFCategory */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E647A1E7BE68F00A4ED24 /* UIView+RFAdd.h */,
+				CE7E647B1E7BE68F00A4ED24 /* UIView+RFAdd.m */,
 				CE7E643C1E7BC71500A4ED24 /* NSString+RFAdd.h */,
 				CE7E643D1E7BC71500A4ED24 /* NSString+RFAdd.m */,
 				CE7E643F1E7BC81C00A4ED24 /* UIScrollView+MJAdd.h */,
@@ -150,6 +171,10 @@
 			children = (
 				CE7E64471E7BCBE000A4ED24 /* RFBaseViewController.h */,
 				CE7E64481E7BCBE000A4ED24 /* RFBaseViewController.m */,
+				CE7E646B1E7BD89900A4ED24 /* RFBaseTabBarController.h */,
+				CE7E646C1E7BD89900A4ED24 /* RFBaseTabBarController.m */,
+				CE7E64741E7BDFA900A4ED24 /* RFBaseNavigationController.h */,
+				CE7E64751E7BDFA900A4ED24 /* RFBaseNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +217,27 @@
 				CE7E64611E7BCE2F00A4ED24 /* refreshing06.png */,
 			);
 			name = imge;
+			sourceTree = "<group>";
+		};
+		CE7E64641E7BD5C900A4ED24 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64681E7BD84100A4ED24 /* RFAnimationHomeViewController.h */,
+				CE7E64691E7BD84100A4ED24 /* RFAnimationHomeViewController.m */,
+				CE7E64771E7BE38900A4ED24 /* RFViewAnimationViewController.h */,
+				CE7E64781E7BE38900A4ED24 /* RFViewAnimationViewController.m */,
+				CE7E64711E7BDA8000A4ED24 /* RFUsualAnimationViewController.h */,
+				CE7E64721E7BDA8000A4ED24 /* RFUsualAnimationViewController.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		CE7E64651E7BD61700A4ED24 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E64661E7BD62C00A4ED24 /* Image.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		E06B051F0B416DB6A2217AC0 /* Frameworks */ = {
@@ -266,10 +312,10 @@
 				CE7E64341E7BBB2F00A4ED24 /* LaunchScreen.storyboard in Resources */,
 				CE7E64581E7BCE1100A4ED24 /* refreshing01.png in Resources */,
 				CE7E64311E7BBB2F00A4ED24 /* Assets.xcassets in Resources */,
-				CE7E642F1E7BBB2F00A4ED24 /* Main.storyboard in Resources */,
 				CE7E645E1E7BCE2400A4ED24 /* refreshing04.png in Resources */,
 				CE7E64601E7BCE2900A4ED24 /* refreshing05.png in Resources */,
 				CE7E645A1E7BCE1700A4ED24 /* refreshing02.png in Resources */,
+				CE7E64671E7BD62C00A4ED24 /* Image.xcassets in Resources */,
 				CE7E645C1E7BCE1D00A4ED24 /* refreshing03.png in Resources */,
 				CE7E64621E7BCE2F00A4ED24 /* refreshing06.png in Resources */,
 			);
@@ -330,13 +376,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7E642C1E7BBB2F00A4ED24 /* ViewController.m in Sources */,
+				CE7E64701E7BD8B800A4ED24 /* RFMainTabBarController.m in Sources */,
+				CE7E64761E7BDFA900A4ED24 /* RFBaseNavigationController.m in Sources */,
 				CE7E64291E7BBB2F00A4ED24 /* AppDelegate.m in Sources */,
+				CE7E64791E7BE38900A4ED24 /* RFViewAnimationViewController.m in Sources */,
 				CE7E64261E7BBB2F00A4ED24 /* main.m in Sources */,
 				CE7E64411E7BC81C00A4ED24 /* UIScrollView+MJAdd.m in Sources */,
 				CE7E643E1E7BC71500A4ED24 /* NSString+RFAdd.m in Sources */,
+				CE7E646A1E7BD84100A4ED24 /* RFAnimationHomeViewController.m in Sources */,
+				CE7E646D1E7BD89900A4ED24 /* RFBaseTabBarController.m in Sources */,
+				CE7E64731E7BDA8000A4ED24 /* RFUsualAnimationViewController.m in Sources */,
 				CE7E64561E7BCE0400A4ED24 /* RFMJAnimateHeader.m in Sources */,
 				CE7E64551E7BCE0400A4ED24 /* RFMJAnimateFooter.m in Sources */,
+				CE7E647C1E7BE68F00A4ED24 /* UIView+RFAdd.m in Sources */,
 				CE7E64491E7BCBE000A4ED24 /* RFBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,14 +396,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE7E642D1E7BBB2F00A4ED24 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE7E642E1E7BBB2F00A4ED24 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE7E64321E7BBB2F00A4ED24 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
