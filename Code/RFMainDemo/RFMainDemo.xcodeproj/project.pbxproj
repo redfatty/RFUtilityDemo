@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3B94E61E7FAC6F0075C505 /* NSBundle+MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94D21E7FAC6F0075C505 /* NSBundle+MWLanguage.m */; };
+		CE3B94E71E7FAC6F0075C505 /* UIButton+MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94D41E7FAC6F0075C505 /* UIButton+MWLanguage.m */; };
+		CE3B94E81E7FAC6F0075C505 /* UILabel+MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94D61E7FAC6F0075C505 /* UILabel+MWLanguage.m */; };
+		CE3B94E91E7FAC6F0075C505 /* UISearchBar+MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94D81E7FAC6F0075C505 /* UISearchBar+MWLanguage.m */; };
+		CE3B94EA1E7FAC6F0075C505 /* UITextField+MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94DA1E7FAC6F0075C505 /* UITextField+MWLanguage.m */; };
+		CE3B94EB1E7FAC6F0075C505 /* UITextView+MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94DC1E7FAC6F0075C505 /* UITextView+MWLanguage.m */; };
+		CE3B94EC1E7FAC6F0075C505 /* MWLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3B94DD1E7FAC6F0075C505 /* MWLanguage.strings */; };
+		CE3B94ED1E7FAC6F0075C505 /* MWLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B94E21E7FAC6F0075C505 /* MWLanguage.m */; };
 		CE7E64261E7BBB2F00A4ED24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64251E7BBB2F00A4ED24 /* main.m */; };
 		CE7E64291E7BBB2F00A4ED24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7E64281E7BBB2F00A4ED24 /* AppDelegate.m */; };
 		CE7E64311E7BBB2F00A4ED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7E64301E7BBB2F00A4ED24 /* Assets.xcassets */; };
@@ -37,6 +45,26 @@
 		77EAD91018E0CD4318B2CC7F /* libPods-RFMainDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFMainDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EAAC38719795CAC9E2D433 /* Pods-RFMainDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFMainDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFMainDemo/Pods-RFMainDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6A818C8082AA5FADC9BF5D /* Pods-RFMainDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFMainDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFMainDemo/Pods-RFMainDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CE3B94D11E7FAC6F0075C505 /* NSBundle+MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MWLanguage.h"; sourceTree = "<group>"; };
+		CE3B94D21E7FAC6F0075C505 /* NSBundle+MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MWLanguage.m"; sourceTree = "<group>"; };
+		CE3B94D31E7FAC6F0075C505 /* UIButton+MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MWLanguage.h"; sourceTree = "<group>"; };
+		CE3B94D41E7FAC6F0075C505 /* UIButton+MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MWLanguage.m"; sourceTree = "<group>"; };
+		CE3B94D51E7FAC6F0075C505 /* UILabel+MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MWLanguage.h"; sourceTree = "<group>"; };
+		CE3B94D61E7FAC6F0075C505 /* UILabel+MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MWLanguage.m"; sourceTree = "<group>"; };
+		CE3B94D71E7FAC6F0075C505 /* UISearchBar+MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+MWLanguage.h"; sourceTree = "<group>"; };
+		CE3B94D81E7FAC6F0075C505 /* UISearchBar+MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+MWLanguage.m"; sourceTree = "<group>"; };
+		CE3B94D91E7FAC6F0075C505 /* UITextField+MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MWLanguage.h"; sourceTree = "<group>"; };
+		CE3B94DA1E7FAC6F0075C505 /* UITextField+MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MWLanguage.m"; sourceTree = "<group>"; };
+		CE3B94DB1E7FAC6F0075C505 /* UITextView+MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MWLanguage.h"; sourceTree = "<group>"; };
+		CE3B94DC1E7FAC6F0075C505 /* UITextView+MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MWLanguage.m"; sourceTree = "<group>"; };
+		CE3B94DE1E7FAC6F0075C505 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MWLanguage.strings; sourceTree = "<group>"; };
+		CE3B94DF1E7FAC6F0075C505 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MWLanguage.strings; sourceTree = "<group>"; };
+		CE3B94E01E7FAC6F0075C505 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MWLanguage.strings; sourceTree = "<group>"; };
+		CE3B94E11E7FAC6F0075C505 /* MWLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLanguage.h; sourceTree = "<group>"; };
+		CE3B94E21E7FAC6F0075C505 /* MWLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLanguage.m; sourceTree = "<group>"; };
+		CE3B94E31E7FAC6F0075C505 /* MWLanguageConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLanguageConst.h; sourceTree = "<group>"; };
+		CE3B94E41E7FAC6F0075C505 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MWLanguage.strings"; sourceTree = "<group>"; };
+		CE3B94E51E7FAC6F0075C505 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MWLanguage.strings"; sourceTree = "<group>"; };
 		CE7E64211E7BBB2F00A4ED24 /* RFMainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFMainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7E64251E7BBB2F00A4ED24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE7E64271E7BBB2F00A4ED24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +124,37 @@
 				8B6A818C8082AA5FADC9BF5D /* Pods-RFMainDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE3B94CF1E7FAC6F0075C505 /* MWLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B94D01E7FAC6F0075C505 /* Category */,
+				CE3B94DD1E7FAC6F0075C505 /* MWLanguage.strings */,
+				CE3B94E11E7FAC6F0075C505 /* MWLanguage.h */,
+				CE3B94E21E7FAC6F0075C505 /* MWLanguage.m */,
+				CE3B94E31E7FAC6F0075C505 /* MWLanguageConst.h */,
+			);
+			path = MWLanguage;
+			sourceTree = "<group>";
+		};
+		CE3B94D01E7FAC6F0075C505 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B94D11E7FAC6F0075C505 /* NSBundle+MWLanguage.h */,
+				CE3B94D21E7FAC6F0075C505 /* NSBundle+MWLanguage.m */,
+				CE3B94D31E7FAC6F0075C505 /* UIButton+MWLanguage.h */,
+				CE3B94D41E7FAC6F0075C505 /* UIButton+MWLanguage.m */,
+				CE3B94D51E7FAC6F0075C505 /* UILabel+MWLanguage.h */,
+				CE3B94D61E7FAC6F0075C505 /* UILabel+MWLanguage.m */,
+				CE3B94D71E7FAC6F0075C505 /* UISearchBar+MWLanguage.h */,
+				CE3B94D81E7FAC6F0075C505 /* UISearchBar+MWLanguage.m */,
+				CE3B94D91E7FAC6F0075C505 /* UITextField+MWLanguage.h */,
+				CE3B94DA1E7FAC6F0075C505 /* UITextField+MWLanguage.m */,
+				CE3B94DB1E7FAC6F0075C505 /* UITextView+MWLanguage.h */,
+				CE3B94DC1E7FAC6F0075C505 /* UITextView+MWLanguage.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		CE7E64181E7BBB2F00A4ED24 = {
@@ -159,6 +218,7 @@
 		CE7E64431E7BC93800A4ED24 /* RFLib */ = {
 			isa = PBXGroup;
 			children = (
+				CE3B94CF1E7FAC6F0075C505 /* MWLanguage */,
 				CE7E64441E7BCBCA00A4ED24 /* Controller */,
 				CE7E64451E7BCBCA00A4ED24 /* Model */,
 				CE7E64461E7BCBCA00A4ED24 /* View */,
@@ -293,6 +353,10 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				ko,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = CE7E64181E7BBB2F00A4ED24;
 			productRefGroup = CE7E64221E7BBB2F00A4ED24 /* Products */;
@@ -317,6 +381,7 @@
 				CE7E645A1E7BCE1700A4ED24 /* refreshing02.png in Resources */,
 				CE7E64671E7BD62C00A4ED24 /* Image.xcassets in Resources */,
 				CE7E645C1E7BCE1D00A4ED24 /* refreshing03.png in Resources */,
+				CE3B94EC1E7FAC6F0075C505 /* MWLanguage.strings in Resources */,
 				CE7E64621E7BCE2F00A4ED24 /* refreshing06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,24 +443,43 @@
 			files = (
 				CE7E64701E7BD8B800A4ED24 /* RFMainTabBarController.m in Sources */,
 				CE7E64761E7BDFA900A4ED24 /* RFBaseNavigationController.m in Sources */,
+				CE3B94ED1E7FAC6F0075C505 /* MWLanguage.m in Sources */,
 				CE7E64291E7BBB2F00A4ED24 /* AppDelegate.m in Sources */,
+				CE3B94EB1E7FAC6F0075C505 /* UITextView+MWLanguage.m in Sources */,
 				CE7E64791E7BE38900A4ED24 /* RFViewAnimationViewController.m in Sources */,
 				CE7E64261E7BBB2F00A4ED24 /* main.m in Sources */,
 				CE7E64411E7BC81C00A4ED24 /* UIScrollView+MJAdd.m in Sources */,
+				CE3B94E81E7FAC6F0075C505 /* UILabel+MWLanguage.m in Sources */,
 				CE7E643E1E7BC71500A4ED24 /* NSString+RFAdd.m in Sources */,
 				CE7E646A1E7BD84100A4ED24 /* RFAnimationHomeViewController.m in Sources */,
 				CE7E646D1E7BD89900A4ED24 /* RFBaseTabBarController.m in Sources */,
+				CE3B94EA1E7FAC6F0075C505 /* UITextField+MWLanguage.m in Sources */,
 				CE7E64731E7BDA8000A4ED24 /* RFUsualAnimationViewController.m in Sources */,
 				CE7E64561E7BCE0400A4ED24 /* RFMJAnimateHeader.m in Sources */,
 				CE7E64551E7BCE0400A4ED24 /* RFMJAnimateFooter.m in Sources */,
+				CE3B94E61E7FAC6F0075C505 /* NSBundle+MWLanguage.m in Sources */,
+				CE3B94E71E7FAC6F0075C505 /* UIButton+MWLanguage.m in Sources */,
 				CE7E647C1E7BE68F00A4ED24 /* UIView+RFAdd.m in Sources */,
 				CE7E64491E7BCBE000A4ED24 /* RFBaseViewController.m in Sources */,
+				CE3B94E91E7FAC6F0075C505 /* UISearchBar+MWLanguage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		CE3B94DD1E7FAC6F0075C505 /* MWLanguage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3B94DE1E7FAC6F0075C505 /* en */,
+				CE3B94DF1E7FAC6F0075C505 /* ja */,
+				CE3B94E01E7FAC6F0075C505 /* ko */,
+				CE3B94E41E7FAC6F0075C505 /* zh-Hans */,
+				CE3B94E51E7FAC6F0075C505 /* zh-Hant */,
+			);
+			name = MWLanguage.strings;
+			sourceTree = "<group>";
+		};
 		CE7E64321E7BBB2F00A4ED24 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
